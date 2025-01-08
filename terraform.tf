@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: MPL-2.0
 
 terraform {
-
+/**/
   cloud {
     organization = "GroundControl"
 
@@ -10,7 +10,7 @@ terraform {
       name = "tfc-guide-example"
     }
   }
-
+*/
   required_providers {
     aws = {
       source  = "hashicorp/aws"
